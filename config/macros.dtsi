@@ -1,3 +1,27 @@
+macro_export: macro_export{
+compatible = "zmk,behavior-macro";
+label = "macro_export";
+#binding-cells = <0>;
+bindings = <&kp E>, <&kp X>, <&kp P>, <&kp O>, <&kp R>, <&kp T>, <&kp SPACE>;
+};
+macro_import: macro_import{
+compatible = "zmk,behavior-macro";
+label = "macro_import";
+#binding-cells = <0>;
+bindings = <&kp I>, <&kp M>, <&kp P>, <&kp O>, <&kp R>, <&kp T>, <&kp SPACE>;
+};
+macro_let: macro_let{
+compatible = "zmk,behavior-macro";
+label = "macro_let";
+#binding-cells = <0>;
+bindings = <&kp L>, <&kp E>, <&kp T>, <&kp SPACE>;
+};
+macro_const: macro_const{
+compatible = "zmk,behavior-macro";
+label = "macro_const";
+#binding-cells = <0>;
+bindings = <&kp C>, <&kp O>, <&kp N>, <&kp S>, <&kp T>, <&kp SPACE>;
+};
 macro_npm_run: macro_npm_run{
 compatible = "zmk,behavior-macro";
 label = "macro_npm_run";
