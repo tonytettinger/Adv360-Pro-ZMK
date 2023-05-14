@@ -1,3 +1,9 @@
+macro_git_commit: macro_git_commit{
+compatible = "zmk,behavior-macro";
+label = "macro_git_commit";
+#binding-cells = <0>;
+bindings = <&kp G>, <&kp I>, <&kp T>, <&kp SPACE>, <&kp C>, <&kp O>, <&kp M>, <&kp M>, <&kp I>, <&kp T>, <&kp SPACE>, <&kp SINGLE_QUOTE>, <&kp SINGLE_QUOTE>, <&kp LEFT>;
+};
 macro_git_pull: macro_git_pull{
 compatible = "zmk,behavior-macro";
 label = "macro_git_pull";

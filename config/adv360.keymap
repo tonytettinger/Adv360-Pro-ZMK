@@ -63,7 +63,7 @@
  &trans  &trans  &trans  &trans  &trans  &trans             &none                                                   &none               &trans           &trans  &trans   &trans   &trans   &trans
  &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans   &none   &none  &trans  &trans   &none               &trans           &trans  &trans   &trans   &trans   &trans
  &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans   &none   &none  &trans   &none   &none  &macro_git_checkout  &macro_git_pull  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                                &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                                 &none  &trans   &trans   &trans   &trans
             >;
         };
 
