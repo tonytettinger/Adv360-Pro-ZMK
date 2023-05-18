@@ -1,3 +1,9 @@
+macro_merge: macro_merge{
+compatible = "zmk,behavior-macro";
+label = "macro_merge";
+#binding-cells = <0>;
+bindings = <&kp G>, <&kp I>, <&kp T>, <&kp SPACE>, <&kp M>, <&kp E>, <&kp R>, <&kp G>, <&kp E>, <&kp ENTER>;
+};
 macro_export: macro_export{
 compatible = "zmk,behavior-macro";
 label = "macro_export";
