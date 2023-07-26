@@ -59,7 +59,7 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3         &kp F4         &kp F5  &kp F6               &tog 1                                                                           &mo 3               &kp F7             &kp F8          &kp F9            &kp F10          &kp F11  &kp F12
+ &kp F1  &kp F2  &kp F3         &kp F4         &kp F5  &kp F6               &tog 1                                                                          &trans               &kp F7             &kp F8          &kp F9            &kp F10          &kp F11  &kp F12
  &trans  &trans  &trans         &trans         &trans  &trans                &none                                                                           &none               &trans             &trans          &trans             &trans           &trans   &trans
  &trans  &trans  &trans     &macro_let   &macro_const  &trans                &none     &trans   &kp PRINTSCREEN   &none   &none  &trans             &trans   &none   &macro_npm_install  &macro_npm_rundev  &macro_npm_run             &trans           &trans   &trans
  &trans  &trans  &trans  &macro_import  &macro_export  &trans                &none      &none  &kp LEFT_COMMAND   &none   &none  &trans              &none   &none  &macro_git_checkout    &macro_git_pull          &trans             &trans     &macro_merge   &trans
