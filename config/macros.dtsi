@@ -1,3 +1,9 @@
+macro_pnpm: macro_pnpm{
+compatible = "zmk,behavior-macro";
+label = "macro_pnpm";
+#binding-cells = <0>;
+bindings = <&kp P>, <&kp N>, <&kp P>, <&kp M>, <&kp SPACE>;
+};
 macro_merge: macro_merge{
 compatible = "zmk,behavior-macro";
 label = "macro_merge";
@@ -38,7 +44,7 @@ macro_npm_install: macro_npm_install{
 compatible = "zmk,behavior-macro";
 label = "macro_npm_install";
 #binding-cells = <0>;
-bindings = <&kp N>, <&kp P>, <&kp M>, <&kp SPACE>, <&kp I>, <&kp N>, <&kp S>, <&kp T>, <&kp A>, <&kp L>, <&kp L>, <&kp ENTER>;
+bindings = <&kp P>, <&kp N>, <&kp P>, <&kp M>, <&kp SPACE>, <&kp I>, <&kp N>, <&kp S>, <&kp T>, <&kp A>, <&kp L>, <&kp L>, <&kp ENTER>;
 };
 macro_npm_rundev: macro_npm_rundev{
 compatible = "zmk,behavior-macro";
