@@ -1,3 +1,9 @@
+macro_find_usage_file: macro_find_usage_file{
+compatible = "zmk,behavior-macro";
+label = "macro_find_usage_file";
+#binding-cells = <0>;
+bindings = <&kt LEFT_COMMAND>, <&kp F7>, <&kt LEFT_COMMAND>;
+};
 macro_rebase: macro_rebase{
 compatible = "zmk,behavior-macro";
 label = "macro_rebase";
