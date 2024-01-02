@@ -1,63 +1,3 @@
-macro_find_usage_file: macro_find_usage_file{
-compatible = "zmk,behavior-macro";
-label = "macro_find_usage_file";
-#binding-cells = <0>;
-bindings = <&kt LEFT_COMMAND>, <&kp F7>, <&kt LEFT_COMMAND>;
-};
-macro_rebase: macro_rebase{
-compatible = "zmk,behavior-macro";
-label = "macro_rebase";
-#binding-cells = <0>;
-bindings = <&kp G>, <&kp I>, <&kp T>, <&kp SPACE>, <&kp R>, <&kp E>, <&kp B>, <&kp A>, <&kp S>, <&kp E>;
-};
-macro_prev_error: macro_prev_error{
-compatible = "zmk,behavior-macro";
-label = "macro_prev_error";
-#binding-cells = <0>;
-bindings = <&kt LEFT_SHIFT>, <&kp F2>, <&kt LEFT_SHIFT>;
-};
-macro_show_desc: macro_show_desc{
-compatible = "zmk,behavior-macro";
-label = "macro_show_desc";
-#binding-cells = <0>;
-bindings = <&kt LEFT_COMMAND>, <&kp F1>, <&kt LEFT_COMMAND>;
-};
-macro_change_sign: macro_change_sign{
-compatible = "zmk,behavior-macro";
-label = "macro_change_sign";
-#binding-cells = <0>;
-bindings = <&kt LEFT_COMMAND>, <&kp F6>, <&kt LEFT_COMMAND>;
-};
-macro_rename: macro_rename{
-compatible = "zmk,behavior-macro";
-label = "macro_rename";
-#binding-cells = <0>;
-bindings = <&kt LEFT_SHIFT>, <&kp F6>, <&kt LEFT_SHIFT>;
-};
-macro_find_usage: macro_find_usage{
-compatible = "zmk,behavior-macro";
-label = "macro_find_usage";
-#binding-cells = <0>;
-bindings = <&kt LEFT_ALT>, <&kp F7>, <&kt LEFT_ALT>;
-};
-macro_toggl_mnebook: macro_toggl_mnebook{
-compatible = "zmk,behavior-macro";
-label = "macro_toggl_mnebook";
-#binding-cells = <0>;
-bindings = <&kt LEFT_ALT>, <&kp F3>, <&kt LEFT_ALT>;
-};
-macro_show_bookmarks: macro_show_bookmarks{
-compatible = "zmk,behavior-macro";
-label = "macro_show_bookmarks";
-#binding-cells = <0>;
-bindings = <&kt LEFT_COMMAND>, <&kp F3>, <&kt LEFT_COMMAND>;
-};
-macro_pnpm: macro_pnpm{
-compatible = "zmk,behavior-macro";
-label = "macro_pnpm";
-#binding-cells = <0>;
-bindings = <&kp P>, <&kp N>, <&kp P>, <&kp M>, <&kp SPACE>;
-};
 macro_merge: macro_merge{
 compatible = "zmk,behavior-macro";
 label = "macro_merge";
@@ -98,7 +38,7 @@ macro_npm_install: macro_npm_install{
 compatible = "zmk,behavior-macro";
 label = "macro_npm_install";
 #binding-cells = <0>;
-bindings = <&kp P>, <&kp N>, <&kp P>, <&kp M>, <&kp SPACE>, <&kp I>, <&kp N>, <&kp S>, <&kp T>, <&kp A>, <&kp L>, <&kp L>, <&kp ENTER>;
+bindings = <&kp N>, <&kp P>, <&kp M>, <&kp SPACE>, <&kp I>, <&kp N>, <&kp S>, <&kp T>, <&kp A>, <&kp L>, <&kp L>, <&kp ENTER>;
 };
 macro_npm_rundev: macro_npm_rundev{
 compatible = "zmk,behavior-macro";
