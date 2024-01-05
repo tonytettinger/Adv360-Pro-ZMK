@@ -14,7 +14,7 @@ macro_sgm: macro_sgm{
 compatible = "zmk,behavior-macro";
 label = "macro_sgm";
 #binding-cells = <0>;
-bindings = <&kp CAPSLOCK>, <&kp S>, <&kp CAPSLOCK>, <&kp U>, <&kp G>, <&kp M>, <&kp E>, <&kp L>, <&kp E>, <&kp G>, <&kp NUMBER_1>, <&kp NUMBER_9>, <&kp NUMBER_8>, <&kp NUMBER_4>, <&kp PERCENT>;
+bindings = <&kt LEFT_SHIFT>, <&kp S>, <&kt LEFT_SHIFT>, <&kp U>, <&kp G>, <&kp M>, <&kp E>, <&kp L>, <&kp E>, <&kp G>, <&kp NUMBER_1>, <&kp NUMBER_9>, <&kp NUMBER_8>, <&kp NUMBER_4>, <&kp PERCENT>;
 };
 macro_find_usage_file: macro_find_usage_file{
 compatible = "zmk,behavior-macro";
