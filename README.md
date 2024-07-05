@@ -1,5 +1,14 @@
 # ADV360-PRO-ZMK
 
+## Firmware update commands
+
+cat left.uf2 > /Volumes/ADV360PRO/left.uf2
+
+OR
+
+cp -X left.uf2 /Volumes/ADV360PRO
+
+
 ## Modifying the keymap
 
 There is a GUI for editing the keymap. It is available at https://kinesiscorporation.github.io/Adv360-Pro-GUI
