@@ -9,7 +9,7 @@ OR
 cp -X left.uf2 /Volumes/ADV360PRO
 
 OR
-
+```
 #!/bin/sh
 #
 # This works around bug where, by default, macOS 14.x writes part of a file 
@@ -22,8 +22,7 @@ sudo umount /Volumes/ADV360PRO
 sudo mkdir /Volumes/ADV360PRO
 sleep 2
 sudo mount -v -o noasync -t msdos $disky /Volumes/ADV360PRO
-
-Then drop
+```
 
 ## Modifying the keymap
 
