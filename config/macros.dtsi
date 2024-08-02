@@ -1,3 +1,9 @@
+macro_clog: macro_clog{
+compatible = "zmk,behavior-macro";
+label = "macro_clog";
+#binding-cells = <0>;
+bindings = <&kp C>, <&kp O>, <&kp N>, <&kp S>, <&kp O>, <&kp L>, <&kp E>, <&kp DOT>, <&kp L>, <&kp O>, <&kp G>, <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>, <&kp LEFT_ARROW>;
+};
 macro_filestruct: macro_filestruct{
 compatible = "zmk,behavior-macro";
 label = "macro_filestruct";
